@@ -1,0 +1,22 @@
+Requirements
+1. Your application should include a prompt explaining the purpose of the application and how it should be operated to the user
+2. Your application should prompt the user to enter a string
+3. Your application should prompt the user to enter a character that will be removed from the string entered above
+4. Your application will output the string with the character removed (Example: string - hello, character - l, output - heo)
+
+basic assignement 
+initialize a string variables and a char variable.
+1. print: this application removes characters from a string you choose. 
+2. print: please enter a sentence of your choosing. Creativity issues? Enter your favourite catchphrase.
+    - assign this to a variable (phrase)
+3. print: please enter a character you'd like removed
+    - assign that to a varaible (letter)
+
+for (i = 0; i less than the length of the string; increment)
+    if (i = letter)
+        remove letter from phrase at the i index 
+        return phrase 
+
+
+
+

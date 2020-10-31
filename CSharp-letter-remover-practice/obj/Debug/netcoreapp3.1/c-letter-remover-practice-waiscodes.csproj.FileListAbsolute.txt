@@ -1,0 +1,12 @@
+/Users/b.wais/Desktop/TechCareers/Assignments/c-letter-remover-practice-waiscodes/bin/Debug/netcoreapp3.1/c-letter-remover-practice-waiscodes.deps.json
+/Users/b.wais/Desktop/TechCareers/Assignments/c-letter-remover-practice-waiscodes/bin/Debug/netcoreapp3.1/c-letter-remover-practice-waiscodes.runtimeconfig.json
+/Users/b.wais/Desktop/TechCareers/Assignments/c-letter-remover-practice-waiscodes/bin/Debug/netcoreapp3.1/c-letter-remover-practice-waiscodes.runtimeconfig.dev.json
+/Users/b.wais/Desktop/TechCareers/Assignments/c-letter-remover-practice-waiscodes/bin/Debug/netcoreapp3.1/c-letter-remover-practice-waiscodes.dll
+/Users/b.wais/Desktop/TechCareers/Assignments/c-letter-remover-practice-waiscodes/bin/Debug/netcoreapp3.1/c-letter-remover-practice-waiscodes.pdb
+/Users/b.wais/Desktop/TechCareers/Assignments/c-letter-remover-practice-waiscodes/obj/Debug/netcoreapp3.1/c-letter-remover-practice-waiscodes.csprojAssemblyReference.cache
+/Users/b.wais/Desktop/TechCareers/Assignments/c-letter-remover-practice-waiscodes/obj/Debug/netcoreapp3.1/c-letter-remover-practice-waiscodes.AssemblyInfoInputs.cache
+/Users/b.wais/Desktop/TechCareers/Assignments/c-letter-remover-practice-waiscodes/obj/Debug/netcoreapp3.1/c-letter-remover-practice-waiscodes.AssemblyInfo.cs
+/Users/b.wais/Desktop/TechCareers/Assignments/c-letter-remover-practice-waiscodes/obj/Debug/netcoreapp3.1/c-letter-remover-practice-waiscodes.csproj.CoreCompileInputs.cache
+/Users/b.wais/Desktop/TechCareers/Assignments/c-letter-remover-practice-waiscodes/obj/Debug/netcoreapp3.1/c-letter-remover-practice-waiscodes.dll
+/Users/b.wais/Desktop/TechCareers/Assignments/c-letter-remover-practice-waiscodes/obj/Debug/netcoreapp3.1/c-letter-remover-practice-waiscodes.pdb
+/Users/b.wais/Desktop/TechCareers/Assignments/c-letter-remover-practice-waiscodes/obj/Debug/netcoreapp3.1/c-letter-remover-practice-waiscodes.genruntimeconfig.cache

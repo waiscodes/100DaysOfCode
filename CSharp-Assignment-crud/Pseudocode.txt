@@ -1,0 +1,28 @@
+Requirements: 
+
+Allow the user to add an item to the dataset.
+Allow the user to display the dataset with the items numbered, starting at number 1 (not 0).
+If there are less than 10 items, do not display the numbers for items that aren’t populated.
+Have a basic menu to select between the above two items, and exit.
+Limit the number of items the user can enter to 10.
+Exit the program when the user enters a sentinel value of your choice (make sure to tell the user what it is).
+
+Initialize an int array with 10 elements
+
+Populate Array using a for loop
+    Wrap in a try block
+        Prompt user for an int input or type "Stop" to Quit and "Done" to finish. 
+        Collect that int and assign it to the array index
+    catch 
+        if user's input is "quit"
+            Thank you message
+            break
+        if user's input is "done"
+            display array using a for loop
+                if user input != 0
+                    concat index + 1 with array
+        else 
+            write error message + try again
+
+display array using for loop
+    concat index + 1 with array

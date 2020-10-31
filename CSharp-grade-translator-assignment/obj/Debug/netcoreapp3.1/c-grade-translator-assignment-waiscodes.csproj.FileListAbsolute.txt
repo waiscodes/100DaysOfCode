@@ -1,0 +1,12 @@
+/Users/b.wais/Desktop/TechCareers/Assignments/c-grade-translator-assignment-waiscodes/bin/Debug/netcoreapp3.1/c-grade-translator-assignment-waiscodes.deps.json
+/Users/b.wais/Desktop/TechCareers/Assignments/c-grade-translator-assignment-waiscodes/bin/Debug/netcoreapp3.1/c-grade-translator-assignment-waiscodes.runtimeconfig.json
+/Users/b.wais/Desktop/TechCareers/Assignments/c-grade-translator-assignment-waiscodes/bin/Debug/netcoreapp3.1/c-grade-translator-assignment-waiscodes.runtimeconfig.dev.json
+/Users/b.wais/Desktop/TechCareers/Assignments/c-grade-translator-assignment-waiscodes/bin/Debug/netcoreapp3.1/c-grade-translator-assignment-waiscodes.dll
+/Users/b.wais/Desktop/TechCareers/Assignments/c-grade-translator-assignment-waiscodes/bin/Debug/netcoreapp3.1/c-grade-translator-assignment-waiscodes.pdb
+/Users/b.wais/Desktop/TechCareers/Assignments/c-grade-translator-assignment-waiscodes/obj/Debug/netcoreapp3.1/c-grade-translator-assignment-waiscodes.csprojAssemblyReference.cache
+/Users/b.wais/Desktop/TechCareers/Assignments/c-grade-translator-assignment-waiscodes/obj/Debug/netcoreapp3.1/c-grade-translator-assignment-waiscodes.AssemblyInfoInputs.cache
+/Users/b.wais/Desktop/TechCareers/Assignments/c-grade-translator-assignment-waiscodes/obj/Debug/netcoreapp3.1/c-grade-translator-assignment-waiscodes.AssemblyInfo.cs
+/Users/b.wais/Desktop/TechCareers/Assignments/c-grade-translator-assignment-waiscodes/obj/Debug/netcoreapp3.1/c-grade-translator-assignment-waiscodes.csproj.CoreCompileInputs.cache
+/Users/b.wais/Desktop/TechCareers/Assignments/c-grade-translator-assignment-waiscodes/obj/Debug/netcoreapp3.1/c-grade-translator-assignment-waiscodes.dll
+/Users/b.wais/Desktop/TechCareers/Assignments/c-grade-translator-assignment-waiscodes/obj/Debug/netcoreapp3.1/c-grade-translator-assignment-waiscodes.pdb
+/Users/b.wais/Desktop/TechCareers/Assignments/c-grade-translator-assignment-waiscodes/obj/Debug/netcoreapp3.1/c-grade-translator-assignment-waiscodes.genruntimeconfig.cache

@@ -1,0 +1,39 @@
+
+1. Your application should include a prompt explaining the purpose of the application and how it should be operated to the user
+2. Your application should allow a user to input a maximum of 10 numbers to an array
+3. Your application should continue to ask the user to input numbers until all 10 slots have been filled in the array, or the escape sequence “done” is entered - all unfilled array slots should be ignored
+4. Given an array of numbers, the application should pull all odd numbers and sort them from lowest to highest, then the application should pull all even numbers and sort them from lowest to highest before outputting the entire array to the user (example - [6, 4, 3, 7, 8] would become [3, 7, 4, 6, 8])
+5. You must write a method for your sort code, which main() calls on - your application must not have the sorting code in main().
+Add an item
+
+Initialize arrays
+evenArr 10
+oddArr 10
+
+Explain purpose: This application sorts numbers you enter in order from lowest to highest with evens first and odds second.
+
+for loop to populate array that runs 10 times 
+    try
+        Prompt User: Please enter a number between 1-10 or type "done". 
+        if (number is even)
+            add to even array
+        else if (number is odd)
+            add to odd array 
+        else if (not between 1-10)
+            prompt user to try again
+            decrement count by one
+    catch
+        if (input == "done")
+            return
+        else
+            not a valid number please try again
+            decrement the count by one
+
+Call method for evenArr
+Call method for oddArr
+
+Create a method to sort numbers
+    array.sort()
+    for loop to print array
+        if (if it doesn't contain zero)
+            write to the console
