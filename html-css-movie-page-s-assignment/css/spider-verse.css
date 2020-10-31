@@ -1,0 +1,124 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+}
+@font-face {
+  src: url("../fonts/Bangers/Bangers-Regular.ttf");
+  font-family: "bangers";
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Presets */
+/* Background Image Begins */
+body {
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+/* Background Image Ends */
+/* HEADER Begins */
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Nav Begins */
+nav {
+  width: 100%;
+  padding-right: 30px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+nav ul li a {
+  font-family: "Indie Flower", cursive;
+}
+/* Media Querry for Desktop */
+@media screen and (min-width: 1024px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    place-items: center;
+    font-size: 1.2em;
+  }
+
+  header figure {
+    width: 25%;
+  }
+  nav ul {
+    justify-content: space-around;
+    width: 75%;
+  }
+}
+
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+}
+/* Nav Ends */
+/* 
+ *HEADER Ends 
+ */
+
+/* 
+  *MAIN Begins
+ */
+
+main img {
+  max-width: 100%;
+  display: block;
+  margin: 1em auto 1em;
+  border: solid 10px rgba(179, 21, 21, 0.7);
+  border-radius: 10px;
+}
+
+figcaption {
+  font-family: "Indie Flower", cursive;
+  letter-spacing: 0.1em;
+}
+
+article {
+  margin: 3vw auto;
+  width: 800px;
+  max-width: 80%;
+  text-align: center;
+  line-height: 1.7em;
+  background-color: rgba(49, 45, 45, 0.6);
+  padding: 1.5em;
+  border-radius: 10px;
+}
+h2,
+h3 {
+  font-family: "bangers";
+  letter-spacing: 0.2em;
+}
+
+p {
+  font-family: "Indie Flower", cursive;
+  letter-spacing: 0.1em;
+}
+/* 
+*MAIN Ends
+ */
+/* 
+ * FOOTER Begins
+  */
+footer {
+  text-align: center;
+}

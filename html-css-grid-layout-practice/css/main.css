@@ -1,0 +1,107 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 50% 35% 15%;
+  grid-template-areas:
+    "logo logo nav"
+    "toc toc toc"
+    "syn syn syn"
+    "ch1 ch1 ch1"
+    "ch2 ch2 ch2"
+    "ch3 ch3 ch3"
+    "ad ad ad"
+    "rev rev rev"
+    "author stats stats"
+    "links links links"
+    "footer footer footer";
+}
+.logo {
+  grid-area: logo;
+  background-color: lightcoral;
+  display: flex;
+  place-items: center;
+  text-transform: uppercase;
+}
+.nav {
+  grid-area: nav;
+  background-color: pink;
+}
+.table {
+  grid-area: toc;
+  background-color: darkmagenta;
+}
+.synopsys {
+  grid-area: syn;
+  background-color: lightgreen;
+}
+.ch1 {
+  grid-area: ch1;
+  background-color: lightseagreen;
+}
+.ch2 {
+  grid-area: ch2;
+  background-color: lightsteelblue;
+}
+.ch3 {
+  grid-area: ch3;
+  background-color: lightslategrey;
+}
+.ad {
+  grid-area: ad;
+  background-color: lightgoldenrodyellow;
+}
+.reviews {
+  grid-area: rev;
+  background-color: lightskyblue;
+}
+.author {
+  grid-area: author;
+  background-color: violet;
+}
+.stats {
+  grid-area: stats;
+  background-color: greenyellow;
+}
+.links {
+  grid-area: links;
+  background-color: indianred;
+}
+footer {
+  grid-area: footer;
+  background-color: cyan;
+}
+
+/* Tablet template */
+@media screen and (min-width: 600px) {
+  body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+      "logo nav nav"
+      "toc syn syn"
+      "toc author stats"
+      "toc ch1 ch1"
+      "rev ch1 ch1"
+      "rev ch2 ch2"
+      "rev ch3 ch3"
+      "ad links footer";
+  }
+}
+/* Desktop Template  */
+@media screen and (min-width: 1024px) {
+  body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "logo nav nav nav nav nav"
+      "toc toc author syn syn stats"
+      "toc toc ch1 ch1 ch1 ch1"
+      "rev rev ch1 ch1 ch1 ch1"
+      "rev rev ch2 ch2 ch2 ch2"
+      "rev rev ch3 ch3 ch3 ch3"
+      "ad ad links links footer footer";
+  }
+}

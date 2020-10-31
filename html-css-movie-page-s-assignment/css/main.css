@@ -1,0 +1,107 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+}
+@font-face {
+  src: url("../fonts/Bangers/Bangers-Regular.ttf");
+  font-family: "bangers";
+  font-weight: normal;
+  font-style: normal;
+}
+/* Presets */
+/* Background Image Begins */
+body {
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+/* Background Image Ends */
+/* HEADER Begins */
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Nav Begins */
+nav {
+  width: 100%;
+  padding-right: 30px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+nav ul li a {
+  font-family: "Indie Flower", cursive;
+}
+
+/* Media Querry for Desktop */
+@media screen and (min-width: 1024px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    place-items: center;
+    font-size: 1.2em;
+  }
+
+  figure {
+    width: 25%;
+  }
+  nav ul {
+    justify-content: space-around;
+    width: 75%;
+  }
+}
+
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+}
+/* Nav Ends */
+/* 
+ *HEADER Ends 
+ */
+/*
+ *MAIN Begins 
+ */
+main {
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+  padding-top: 10%;
+}
+h1:last-of-type {
+  font-family: "bangers";
+  letter-spacing: 0.2em;
+  font-size: 3em;
+}
+p {
+  font-family: "Indie Flower", cursive;
+  letter-spacing: 0.2em;
+}
+
+/* 
+*MAIN Ends
+ */
+/* 
+ * FOOTER Begins
+  */
+footer {
+  text-align: center;
+}
