@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <script src="../js/script.js" defer></script>
+    <title>The Gallows</title>
+  </head>
+  <body>
+    <h1>The Gallows</h1>
+    <p>Enter a Guess to Begin</p>
+    <!-- 
+     -->
+    <form action="#">
+      <label for="inputGuess">Enter a Guess: </label>
+      <input type="text" name="inputGuess" id="inputGuess" maxlength="1" />
+      <input
+        type="submit"
+        name="submitGuess"
+        id="submitGuess"
+        value="Guess"
+        class="submitGuess"
+      />
+    </form>
+    <!-- 
+     -->
+    <h3>Word</h3>
+    <h5 class="word"></h5>
+    <!-- 
+      -->
+    <section class="chanceSection">
+      <h3>Chances</h3>
+      <h5 class="chances">10</h5>
+    </section>
+
+    <!-- 
+    -->
+    <section class="guessSection">
+      <h3>Previous Guesses</h3>
+      <h5 class="oldGuesses"></h5>
+    </section>
+  </body>
+</html>

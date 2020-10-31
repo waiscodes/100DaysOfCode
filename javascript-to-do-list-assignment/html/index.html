@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <script src="../javascript/scripts.js" defer></script>
+    <title>My TBR</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1><span>my</span>TBR</h1>
+      </header>
+
+      <div class="reading">
+        <h3>Reading</h3>
+        <ul id="readingList"></ul>
+      </div>
+
+      <div class="toBeRead">
+        <h3>To Be Read</h3>
+
+        <form action="#">
+          <label for="books">
+            Add Book:
+          </label>
+          <input type="text" id="books" value="" />
+          <input type="submit" value="Submit" required />
+        </form>
+        <ul id="bookList"></ul>
+      </div>
+
+      <div class="finished">
+        <h3>Done</h3>
+        <ul class="finishedList"></ul>
+      </div>
+
+      <footer>&copy; Copyright 2020</footer>
+    </div>
+  </body>
+</html>
