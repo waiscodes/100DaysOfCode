@@ -1,0 +1,7 @@
+.add-book {
+  border: solid;
+}
+.add-book form > * {
+  display: block;
+  margin: auto;
+}

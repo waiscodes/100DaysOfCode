@@ -1,0 +1,26 @@
+Requirements
+    Use “npx create-react-app” to start a new React project.
+    Create a “Calculator” component.
+    Use a prop to output a unique heading for the component.
+    Include two input fields that can take in numeric values, in your component return.
+    Create a select (drop down box) which allows the user to choose what operation to apply to the two numeric fields, , in your component return.
+    Your operations must include addition, subtraction, multiplication, and division.
+
+Challenges
+    Make it look nice with some CSS! *Make sure to “import” your CSS file appropriately.
+    Ensure you remove any extra / unnecessary files from your project.
+
+Steps
+    1. Create a react app
+        Initialize git 
+    2. Create a Calculator component
+        Create a new folder for components and add a calculator file 
+        Import React
+    3. Use a prop to output a unique heading component 
+        This means like using their name in the heading or something
+        Add a pop prop in an H1 basically
+    4. 2 Input fields that take numeric values for the numbers
+        I need to figure this part out. I'm not sure how to validate that. Using HTML or Javascript
+    5. Drop down/select box which allows the user to choose what operation they want
+        This won't do anything yet. It's just there for show. But I would need to set the values to something so that the Javascript can pick it up.
+        Make them / * + -

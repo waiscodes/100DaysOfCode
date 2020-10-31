@@ -1,0 +1,34 @@
+Use “npx create-react-app” to start a new React project.
+Create a “Calculator” component.
+Use a prop to output a unique heading for the component.
+Include two input fields that can take in numeric values, in your component return.
+Create a select (drop down box) which allows the user to choose what operation to apply to the two numeric fields, in your component return.
+Your operations must include addition, subtraction, multiplication, and division.
+     New For “React Calculator Assignment”
+Use state to keep track of the entered input values and current select value.
+Output to the user the result of the calculation onSubmit or onClick.
+
+Steps 
+
+1. Create App
+    Initialize git and connect it to classroom repo
+2. Calc component
+    New folder, import and export 
+3. Prop to create a unique heading 
+    Just play with prop inputs from index.js 
+4. Create two input fields
+    Create a form and put two input fields 
+5. Add a drop down selection with mathematical operations 
+    + - * /
+
+6. Use state to track input of numeric and selected values
+    a. import useState 
+    b. set up for state using assignment deconstructor
+        One for new input and another one that sets the new input
+7. Add Event Listener 
+    a. prevent default
+    b. create variables for the input values
+8. Calculate 
+    a. Parse int the values
+    b. create a switch statement to Calculate
+

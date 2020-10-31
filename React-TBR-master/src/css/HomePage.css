@@ -1,0 +1,13 @@
+.home {
+  border: solid;
+}
+.home form > * {
+  display: block;
+  margin: auto;
+}
+.home .feed > * {
+  border: solid;
+  display: block;
+  margin: auto;
+  width: fit-content;
+}
