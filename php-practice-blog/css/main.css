@@ -1,0 +1,21 @@
+* {
+  font-family: Helvetica, sans-serif;
+  font-weight: 200;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: rgb(196, 196, 196);
+  width: 80%;
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+article {
+  border: solid 0.1px;
+  border-color: rgba(196, 196, 196, 0.26);
+  box-shadow: 1px 1px 5px rgba(143, 143, 143, 0.37);
+  margin: 15px 0px;
+}
