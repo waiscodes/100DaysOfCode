@@ -1,0 +1,127 @@
+/* Presets Start */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Presets Finish */
+/* Background Image Start */
+body {
+  background-image: url("./Images/Roadster\ Background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Background Image End */
+/* NAVIGATION BAR START */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 400;
+}
+.cars li {
+  display: inline-block;
+  padding: 0px 0.5em;
+}
+.cta li {
+  display: inline-block;
+  padding: 0px 0.5em;
+}
+/* NAVIGATION BAR ENDS */
+/* TITLE STARTS */
+.title {
+  text-align: center;
+  font-size: 3.5em;
+  margin-top: 0.5em;
+  color: rgba(0, 0, 0, 0.7);
+}
+.fa {
+  color: white;
+}
+/* TITLE ENDS */
+/* PARAGRAPH BEGINS */
+.description {
+  text-align: center;
+  color: whitesmoke;
+  margin-top: 60vh;
+  font-size: 19px;
+}
+/* PARAGRAPH ENDS */
+/* SPECS TABLE START */
+.specs {
+  display: flex;
+  align-items: center;
+  /* background-color: rgba(0, 0, 0, 0.1); */
+  justify-content: space-evenly;
+  width: 55%;
+  margin: auto;
+  color: white;
+  margin-top: 1em;
+  font-size: 13px;
+}
+
+td {
+  text-align: center;
+}
+
+span {
+  font-size: 35px;
+}
+
+hr {
+  transform: rotate(90deg);
+  width: 50px;
+}
+.speed {
+  position: relative;
+  right: -15px;
+  top: -5px;
+}
+/* SPECS TABLE END */
+/* BUTTON START */
+.button {
+  border: solid;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 10px 40px;
+  border-radius: 50px;
+  color: white;
+  border-color: white;
+  text-transform: uppercase;
+  margin-left: 45px;
+  border-width: 3px;
+}
+
+.button:hover {
+  background-color: rgba(255, 255, 255, 1);
+  color: black;
+  cursor: pointer;
+}
+/* BUTTON END */
+/* ARROW DOWN */
+.downarrow {
+  text-align: center;
+}
+
+.arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  padding: 6.5px;
+  position: absolute;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
