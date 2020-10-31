@@ -1,0 +1,30 @@
+Data
+  Task
+  Date
+  Category
+  Completion
+
+Task
+  TaskID int(10) NOT NULL AUTO_INCREMENT
+  CatID int(10) NOT NULL
+  TaskName varchar(25) NOT NULL
+  TaskDue date NOT NULL 
+  TaskStat bool NOT NULL 
+
+Category
+  CatID int(10) NOT NULL
+  CatName varchar(25) NOT NULL 
+  CatDescription date NOT NULL 
+
+Sanitize Class
+  Public Variables: 
+    TaskName
+    DueDate
+    Category
+
+  Construct (POST)
+    Parse array and assign to variables 
+  
+  Output()
+    Sanitize and return
+
