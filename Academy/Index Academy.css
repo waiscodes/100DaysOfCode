@@ -1,0 +1,207 @@
+* {
+  margin: 0em;
+  padding: 0em;
+  font-family: fantasy;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),
+    url("./Images/School\ of\ Athens.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-attachment: fixed;
+}
+/* NavBar */
+header {
+  color: white;
+  width: 70%;
+  margin: auto;
+}
+header ul {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  text-transform: uppercase;
+  list-style-type: none;
+  font-size: 18px;
+}
+header ul li a {
+  text-decoration: none;
+  color: yellow;
+}
+/* NavBar */
+/* Landing */
+.landing {
+  height: 90vh;
+  height: 95vh;
+  display: grid;
+  text-transform: uppercase;
+  color: yellow;
+}
+.landing h1 {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.landing p {
+  display: flex;
+  justify-content: center;
+}
+/* Landing */
+/* About */
+.about {
+  height: fit-content;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(255, 255, 0, 0.9);
+  justify-content: center;
+  padding: 30px 0px;
+}
+.about h1 {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+.aboutImg {
+  border: solid;
+  border-radius: 5px;
+}
+.aboutTxt {
+  max-width: 590px;
+  text-align: center;
+  display: flex;
+}
+.aboutTxt p {
+  display: flex;
+  align-items: center;
+}
+/* About */
+/* Faculty */
+
+.faculty {
+  margin-top: 15vh;
+  min-height: fit-content;
+  padding: 50px;
+  background-color: rgba(255, 255, 0, 0.9);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  place-items: center;
+  position: relative;
+}
+.facultyId {
+  width: 100%;
+  text-align: center;
+}
+.facultyDiv {
+  border: solid transparent 0.5px;
+  margin: 1%;
+  flex: 1 1 200px;
+  flex: 0 1 200px;
+  height: 350px;
+  box-shadow: 2px 2px 1px black;
+  text-align: center;
+}
+/* End Faculty */
+
+/* Begin Program */
+.programs {
+  margin-top: 15vh;
+  height: fit-content;
+  padding: 50px;
+  background-color: rgba(255, 255, 0, 0.9);
+  text-align: center;
+  display: grid;
+  justify-content: center;
+}
+.programs h1 {
+  margin: 10px;
+  width: 80vw;
+}
+.programs table {
+  margin: 0em;
+  border-bottom: solid;
+}
+.programs table th {
+  font-size: 1.3em;
+  font-weight: bolder;
+  border-bottom: solid;
+}
+.programs table tr td {
+  padding: 15px;
+}
+tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+/* Programs End */
+
+/* Contact Start */
+.contact {
+  margin-top: 15vh;
+  height: fit-content;
+  padding: 50px;
+  background-color: rgba(255, 255, 0, 0.9);
+  text-align: center;
+  display: grid;
+  grid-gap: 20px;
+}
+input {
+  background: rgba(255, 255, 255, 0.65);
+  width: 250px;
+  margin: 10px;
+  border: thin;
+  padding: 5px;
+}
+textarea {
+  background: rgba(255, 255, 255, 0.65);
+  margin: 10px;
+  border: thin;
+  padding: 5px;
+}
+.button p a {
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: yellow;
+  font-weight: bold;
+  padding: 5px 50px;
+  border-radius: 50px;
+  letter-spacing: 5px;
+}
+/* Contact End */
+
+/* Footer Start */
+footer {
+  margin-top: 15vh;
+  height: fit-content;
+  padding-top: 50px;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  color: yellow;
+  justify-content: space-evenly;
+}
+.newsletter {
+  text-align: center;
+}
+.newsletter a {
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 0, 0.8);
+  color: black;
+  font-weight: bold;
+  padding: 5px 30px;
+  border-radius: 50px;
+  letter-spacing: 3px;
+}
+.copyright {
+  width: 100%;
+  text-align: center;
+}
+.socials {
+}
